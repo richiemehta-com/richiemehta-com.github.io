@@ -18,7 +18,7 @@ body {
 
 h1 {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 5em;
     margin-bottom: 20px; 
 }
 
@@ -28,9 +28,7 @@ p {
     margin-bottom: 30px;
 }
 
-.signup {
-    /* Style this section as needed for your form */
-}
+
 
 .signature {
     margin-top: 40px;
