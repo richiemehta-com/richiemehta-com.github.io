@@ -12,28 +12,211 @@
     <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
     
     <style>
-        /* ... (Include your CSS here, make sure it matches the last known working version.) ... */
+        body {
+            background-color: black;
+            color: #E9A030;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: left;
+            padding: 40px;
+            max-width: 800px;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 7em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-weight: bold;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .signature {
+            margin-top: 40px;
+        }
+
+        .sib-form-container {
+  background-color: black; 
+}
+
+.sib-form-container label,
+.sib-form-container input::placeholder, 
+.sib-form-container textarea::placeholder,
+.sib-form-message-panel { 
+    color: #E98010;  /* Your dark orange color */
+}
+
+        .sib-form-block__button {
+  background-color: #E98010; /* Your dark orange color */ 
+  color: black; /* Or white, depending on contrast */
+}
+
+  #sib-container input:-ms-input-placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container input::placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container textarea::placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container a {
+    text-decoration: underline;
+    color: #2BB2FC;
+  }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Content -->
         <h1>POACHER</h1>
         <h2>Join me. Sign up below.</h2>
-        <!-- Form provided by Brevo -->
-        <!-- ... (Include your form HTML here, make sure it matches the last known working version.) ... -->
+        <p>
+            POACHER is a series inspired by the courage of wildlife crime fighters in India, who successfully tackled the largest ivory poaching ring in the history of the country.
+        </p>
+        <p>
+            It’s an examination of the sacrifice that people are making in order to avert species extinction, of the reason why wildlife crime occurs, and of the animal kingdom’s response to our actions.
+        </p>
+        <p>
+            The process of making POACHER, both in researching the real people, and recreating their story on screen, has changed my life, and I’m interested in doing more in this space of impact-based dramatic storytelling.
+        </p>
+        <p>
+            If you’re interested in keeping up, sign up below and I’ll keep you informed on my latest projects, collaborations, and releases.
+        </p>
+        <p class="signature">Yours,<br>Richie Mehta</p>
     </div>
 
+    <!-- Ensure any custom addons or elements from the last working version are included here -->
+
     <div class="image-container">
-        <!-- Content Image -->
         <img src="poacher_richie_mehta.jpg" alt="Poacher - Richie Mehta" width="1063" height="1600">
     </div>
 
-    <!-- Scripts at the end of the body -->
-    <script>
-        // Configuration scripts
-        // ... (Include your configuration scripts from the last known working version here.) ...
-    </script>
+    <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid; direction:ltr">
+      <form id="sib-form" method="POST" action="https://d8252bf9.sibforms.com/serve/MUIFAF5sPTZzIhby8W7qH0LCFP_XwyRllmi7U0H404F1K7j8w6QNXQI1Tp9dD9__ROIBC-bDFsba2HyQYk7UOTywHtXYgIZiEmhNaaXj0p3NokB34zrCq3JVM2ZoUD50t3d1tzW8omEAdwXZNSG8KZG349VUrIUvEwp0zVygNXgyOzOWVh-4h-mjKPLnCJxd_f5H2qtdI_VURmE7" data-type="subscription">
+        <div style="padding: 8px 0;">
+          <div class="sib-input sib-form-block">
+            <div class="form__entry entry_block">
+              <div class="form__label-row ">
+                <label class="entry__label" style="font-weight: 700; text-align:left; font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858;" for="EMAIL" data-required="*">Enter your email address to join me</label>
+
+                <div class="entry__field">
+                  <input class="input " type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="EMAIL" data-required="true" required />
+                </div>
+              </div>
+
+              <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+              </label>
+              <label class="entry__specification" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4; text-align:left">
+                Provide your email address to subscribe. For e.g abc@xyz.com
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-optin sib-form-block">
+            <div class="form__entry entry_mcq">
+              <div class="form__label-row ">
+                <div class="entry__choice" style="">
+                  <label>
+                    <input type="checkbox" class="input_replaced" value="1" id="OPT_IN" name="OPT_IN" />
+                    <span class="checkbox checkbox_tick_positive"
+            style="margin-left:"
+            ></span><span style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;"><p>I agree to receive your newsletters and accept the data privacy statement.</p></span> </label>
+                </div>
+              </div>
+              <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+              </label>
+              <label class="entry__specification" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4; text-align:left">
+                You may unsubscribe at any time using the link in my emails.
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-captcha sib-form-block">
+            <div class="form__entry entry_block">
+              <div class="form__label-row ">
+                <script>
+                  function handleCaptchaResponse() {
+                    var event = new Event('captchaChange');
+                    document.getElementById('sib-captcha').dispatchEvent(event);
+                  }
+                </script>
+                <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LdBuXwpAAAAAFFNTMOkURa3QQbXYKJhZq-mgEDN" data-callback="handleCaptchaResponse" style="direction:ltr"></div>
+              </div>
+              <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-form-block" style="text-align: left">
+            <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#FFFFFF; background-color:#3E4857; border-radius:3px; border-width:0px;" form="sib-form" type="submit">
+              <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
+                <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
+              </svg>
+              LET ME IN
+            </button>
+          </div>
+        </div>
+
+        <input type="text" name="email_address_check" value="" class="input--hidden">
+        <input type="hidden" name="locale" value="en">
+      </form>
+    </div>
+  </div>
+</div>
+            </div>    
+
+ <script>
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+  window.LOCALE = 'en';
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+  window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+
+  window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+
+
+
+  window.translation = {
+    common: {
+      selectedList: '{quantity} list selected',
+      selectedLists: '{quantity} lists selected'
+    }
+  };
+
+  var AUTOHIDE = Boolean(0);
+</script>
+
+
 
     <!-- External Scripts for form functionality -->
     <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
